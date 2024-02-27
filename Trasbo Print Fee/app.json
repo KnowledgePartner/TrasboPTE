@@ -10,14 +10,22 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "runtime": "12.1",
+  "dependencies": [
+    {
+      "id": "f4b69b55-c90d-4937-8f53-2742898fa948",
+      "name": "Continia Document Output",
+      "publisher": "Continia Software",
+      "version": "9.1.0.0"
+    }
+  ],
   "screenshots": [],
-  "platform": "1.0.0.0",
+  "platform": "22.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
-      "to": 50100
+      "from": 55000,
+      "to": 55100
     }
   ],
   "features": [
