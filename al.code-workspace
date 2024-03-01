@@ -7,5 +7,10 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${PerTenantExtensionCop}"
+    ]
+  },
 }
