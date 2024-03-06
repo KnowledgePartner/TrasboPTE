@@ -45,6 +45,7 @@ codeunit 55001 "Print Fee Mgt."
         SalesLine."Line No." := NextLineNo;
         SalesLine.Type := SalesLine.Type::"G/L Account";
         SalesLine.Validate("No.", SalesSetup."Print Fee G/L Account");
+        SalesLine.Validate(Quantity, 1);
         SalesLine.Insert();
     end;
 
