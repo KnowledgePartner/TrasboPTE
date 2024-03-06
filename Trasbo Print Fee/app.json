@@ -2,7 +2,7 @@
   "id": "38d52a5d-b208-4389-bf58-eeffa7c0fb2a",
   "name": "Trasbo Print Fee",
   "publisher": "Knowledge Partner",
-  "version": "1.0.0.0",
+  "version": "1.1.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -10,14 +10,34 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "runtime": "12.1",
+  "dependencies": [
+    {
+      "id": "f4b69b55-c90d-4937-8f53-2742898fa948",
+      "name": "Continia Document Output",
+      "publisher": "Continia Software",
+      "version": "9.1.0.0"
+    },
+    {
+      "id": "4b915d7e-c02a-435f-85ab-649086c1e002",
+      "name": "Continia Core",
+      "publisher": "Continia Software",
+      "version": "9.1.0.0"
+    },
+    {
+      "id": "0745e76d-0b72-4641-87c2-ee45db5d2c32",
+      "name": "Continia Delivery Network",
+      "publisher": "Continia Software",
+      "version": "6.1.0.0"
+    }
+  ],
   "screenshots": [],
-  "platform": "1.0.0.0",
+  "platform": "22.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
-      "to": 50100
+      "from": 55000,
+      "to": 55100
     }
   ],
   "features": [

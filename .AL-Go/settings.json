@@ -2,5 +2,10 @@
   "country": "us",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "installApps": [
+    "Trasbo Print Fee\\Dependencies\\Continia Software_Continia Core_9.1.6.318818.app",
+    "Trasbo Print Fee\\Dependencies\\Continia Software_Continia Delivery Network_6.1.3.317447.app",
+    "Trasbo Print Fee\\Dependencies\\Continia Software_Continia Document Output_9.1.3.310561.app"
+  ]
 }
